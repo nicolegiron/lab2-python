@@ -1,6 +1,6 @@
 #Author : Nicole Giron nqg5259@psu.edu
 
-def getLetterGrade(score):
+def getLetterGrade(score) :
   if score >= 93.0:
     return "A"
   elif score >= 90.0 and score < 93.0:
