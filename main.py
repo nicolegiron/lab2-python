@@ -23,3 +23,5 @@ def letterGrade(score):
 def run():
   grade = letterGrade(float(input("Enter your CMPSC 131 grade: ")))
   print(f"Grade point for course 1 is: {grade}")
+if __name__ == "__main__":
+  run()
