@@ -21,5 +21,5 @@ def letterGrade(score):
     return "F"
 
 def run():
-  grade = float(input("Enter your CMPSC 131 grade: "))
-  print("Grade point for course 1 is: " + str(letterGrade(grade)))
+  grade = letterGrade(float(input("Enter your CMPSC 131 grade: ")))
+  print(f"Grade point for course 1 is: {grade}")
