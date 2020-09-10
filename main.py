@@ -1,6 +1,6 @@
 #Author : Nicole Giron nqg5259@psu.edu
 
-def letterGrade(score):
+def getLetterGrade(score):
   if score >= 93.0:
     return "A"
   elif score >= 90.0 and score < 93.0:
@@ -21,7 +21,7 @@ def letterGrade(score):
     return "F"
 
 def run():
-  grade = letterGrade(float(input("Enter your CMPSC 131 grade: ")))
+  grade = getLetterGrade(float(input("Enter your CMPSC 131 grade: ")))
   print(f"Your letter grade for CMPSC 131 is {grade}")
 if __name__ == "__main__":
   run()
